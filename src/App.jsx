@@ -8,12 +8,12 @@ import './App.css'
 
 function App() {
   const addValue = ()=>{
-  setCounter(counter=> counter+1);
+  setCounter(counter=> counter>= 20? 20:counter+1);
   console.log(counter);
 }
 
 const removevalue = ()=>{
-  setCounter(counter=> counter-1);
+  setCounter(counter=> counter<1? 0: counter-1);
   console.log(counter);
   
 }
