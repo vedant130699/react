@@ -34,5 +34,4 @@ This project helped me learn how to fetch data from api
 
 ---
 
-## 📁 Project Structure
 
